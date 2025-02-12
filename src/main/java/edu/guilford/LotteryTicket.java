@@ -1,7 +1,7 @@
 package edu.guilford;
 
 public class LotteryTicket {
- // attributes
+    // attributes
     private int[] numbers;
     private int powerBall;
     // ticket number attribute
@@ -33,9 +33,9 @@ public class LotteryTicket {
                 numbers[i] = number;
             }
         }
-        
-      
+
     }
+
     // getters
     public int[] getNumbers() {
         return numbers;
